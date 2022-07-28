@@ -93,7 +93,7 @@ time_table_insert = ("""
                      VALUES(%s,%s,%s,%s,%s,%s,%s) ON CONFLICT DO NOTHING;""")
 
 # FIND SONGS
-
+## Just for test. No need for this project
 song_select = ("""
                SELECT songs.song_id,artists.artist_id 
                FROM songs JOIN artists ON songs.artist_id = artists.artist_id
